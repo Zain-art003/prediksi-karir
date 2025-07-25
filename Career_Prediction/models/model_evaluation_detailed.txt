@@ -1,0 +1,25 @@
+Akurasi: 73.33%
+
+Classification Report:
+
+                            precision    recall  f1-score   support
+
+          Business Analyst       0.80      0.82      0.81        60
+           Project Manager       0.88      0.85      0.86        60
+        Software Developer       0.55      0.88      0.68        60
+Tech Lead/Senior Developer       0.80      0.88      0.84        60
+      Technical Specialist       0.74      0.23      0.35        60
+
+                  accuracy                           0.73       300
+                 macro avg       0.75      0.73      0.71       300
+              weighted avg       0.75      0.73      0.71       300
+
+
+Confusion Matrix:
+
+                            Business Analyst  Project Manager  Software Developer  Tech Lead/Senior Developer  Technical Specialist
+Business Analyst                          49                6                   2                           3                     0
+Project Manager                            7               51                   0                           2                     0
+Software Developer                         1                1                  53                           1                     4
+Tech Lead/Senior Developer                 4                0                   2                          53                     1
+Technical Specialist                       0                0                  39                           7                    14
